@@ -1,0 +1,6 @@
+framework module Pods_OnboardingUI_with_Auth {
+  umbrella header "Pods-OnboardingUI with Auth-umbrella.h"
+
+  export *
+  module * { export * }
+}

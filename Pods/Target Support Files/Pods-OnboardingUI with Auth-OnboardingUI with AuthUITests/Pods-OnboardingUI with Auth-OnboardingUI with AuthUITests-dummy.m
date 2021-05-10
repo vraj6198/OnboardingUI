@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_OnboardingUI_with_Auth_OnboardingUI_with_AuthUITests : NSObject
+@end
+@implementation PodsDummy_Pods_OnboardingUI_with_Auth_OnboardingUI_with_AuthUITests
+@end

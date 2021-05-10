@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67D96B854055346D66F4196D /* Pods_OnboardingUI_with_Auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 253383BE01FC8A9FCA2E5D88 /* Pods_OnboardingUI_with_Auth.framework */; };
+		A0D006909B55C0C3C24D4AD6 /* Pods_OnboardingUI_with_AuthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C83D9E9283D721C32DCE4B /* Pods_OnboardingUI_with_AuthTests.framework */; };
+		AC137B8E25EE04B200FB5D8C /* LoginUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC137B8D25EE04B200FB5D8C /* LoginUI.swift */; };
+		AC8716E825E0DB4C000212EE /* OnboardingUI_with_AuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8716E725E0DB4C000212EE /* OnboardingUI_with_AuthApp.swift */; };
+		AC8716EA25E0DB4C000212EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8716E925E0DB4C000212EE /* ContentView.swift */; };
+		AC8716EC25E0DB50000212EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8716EB25E0DB50000212EE /* Assets.xcassets */; };
+		AC8716EF25E0DB50000212EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8716EE25E0DB50000212EE /* Preview Assets.xcassets */; };
+		AC8716FA25E0DB51000212EE /* OnboardingUI_with_AuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8716F925E0DB51000212EE /* OnboardingUI_with_AuthTests.swift */; };
+		AC87170525E0DB51000212EE /* OnboardingUI_with_AuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87170425E0DB51000212EE /* OnboardingUI_with_AuthUITests.swift */; };
+		ACEFE8ED25E42C6900614EFA /* apple.json in Resources */ = {isa = PBXBuildFile; fileRef = ACEFE8EC25E42C6900614EFA /* apple.json */; };
+		D7AC6717EEF0DC749EBF027A /* Pods_OnboardingUI_with_Auth_OnboardingUI_with_AuthUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D504D9FB5A2654897D734C5C /* Pods_OnboardingUI_with_Auth_OnboardingUI_with_AuthUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC8716F625E0DB51000212EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC8716DC25E0DB4C000212EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC8716E325E0DB4C000212EE;
+			remoteInfo = "OnboardingUI with Auth";
+		};
+		AC87170125E0DB51000212EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC8716DC25E0DB4C000212EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC8716E325E0DB4C000212EE;
+			remoteInfo = "OnboardingUI with Auth";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A4BF0AE5DFF8997ACEE332C /* Pods-OnboardingUI with AuthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingUI with AuthTests.release.xcconfig"; path = "Target Support Files/Pods-OnboardingUI with AuthTests/Pods-OnboardingUI with AuthTests.release.xcconfig"; sourceTree = "<group>"; };
+		253383BE01FC8A9FCA2E5D88 /* Pods_OnboardingUI_with_Auth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingUI_with_Auth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		859AF0CE7F678CDE657B101E /* Pods-OnboardingUI with AuthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingUI with AuthTests.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingUI with AuthTests/Pods-OnboardingUI with AuthTests.debug.xcconfig"; sourceTree = "<group>"; };
+		950EB5E958D9B12D184CB889 /* Pods-OnboardingUI with Auth-OnboardingUI with AuthUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingUI with Auth-OnboardingUI with AuthUITests.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingUI with Auth-OnboardingUI with AuthUITests/Pods-OnboardingUI with Auth-OnboardingUI with AuthUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		97A9370F81F1F54E6A994BF0 /* Pods-OnboardingUI with Auth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingUI with Auth.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingUI with Auth/Pods-OnboardingUI with Auth.debug.xcconfig"; sourceTree = "<group>"; };
+		A60892F0734DC6F938AE4A2C /* Pods-OnboardingUI with Auth-OnboardingUI with AuthUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingUI with Auth-OnboardingUI with AuthUITests.release.xcconfig"; path = "Target Support Files/Pods-OnboardingUI with Auth-OnboardingUI with AuthUITests/Pods-OnboardingUI with Auth-OnboardingUI with AuthUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A7C83D9E9283D721C32DCE4B /* Pods_OnboardingUI_with_AuthTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingUI_with_AuthTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC137B8D25EE04B200FB5D8C /* LoginUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUI.swift; sourceTree = "<group>"; };
+		AC8716E425E0DB4C000212EE /* OnboardingUI with Auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OnboardingUI with Auth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8716E725E0DB4C000212EE /* OnboardingUI_with_AuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingUI_with_AuthApp.swift; sourceTree = "<group>"; };
+		AC8716E925E0DB4C000212EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC8716EB25E0DB50000212EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC8716EE25E0DB50000212EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC8716F025E0DB50000212EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8716F525E0DB51000212EE /* OnboardingUI with AuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OnboardingUI with AuthTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8716F925E0DB51000212EE /* OnboardingUI_with_AuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingUI_with_AuthTests.swift; sourceTree = "<group>"; };
+		AC8716FB25E0DB51000212EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC87170025E0DB51000212EE /* OnboardingUI with AuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OnboardingUI with AuthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC87170425E0DB51000212EE /* OnboardingUI_with_AuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingUI_with_AuthUITests.swift; sourceTree = "<group>"; };
+		AC87170625E0DB51000212EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEFE8EC25E42C6900614EFA /* apple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = apple.json; sourceTree = "<group>"; };
+		D504D9FB5A2654897D734C5C /* Pods_OnboardingUI_with_Auth_OnboardingUI_with_AuthUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingUI_with_Auth_OnboardingUI_with_AuthUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2890442A60A6EAD65E068E /* Pods-OnboardingUI with Auth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingUI with Auth.release.xcconfig"; path = "Target Support Files/Pods-OnboardingUI with Auth/Pods-OnboardingUI with Auth.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC8716E125E0DB4C000212EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D96B854055346D66F4196D /* Pods_OnboardingUI_with_Auth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8716F225E0DB51000212EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D006909B55C0C3C24D4AD6 /* Pods_OnboardingUI_with_AuthTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8716FD25E0DB51000212EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AC6717EEF0DC749EBF027A /* Pods_OnboardingUI_with_Auth_OnboardingUI_with_AuthUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33F48C8B2D26D3F0DCC5D589 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				253383BE01FC8A9FCA2E5D88 /* Pods_OnboardingUI_with_Auth.framework */,
+				D504D9FB5A2654897D734C5C /* Pods_OnboardingUI_with_Auth_OnboardingUI_with_AuthUITests.framework */,
+				A7C83D9E9283D721C32DCE4B /* Pods_OnboardingUI_with_AuthTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC01240925EBBD8900D39F44 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC8716E925E0DB4C000212EE /* ContentView.swift */,
+				AC137B8D25EE04B200FB5D8C /* LoginUI.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC8716DB25E0DB4C000212EE = {
+			isa = PBXGroup;
+			children = (
+				AC8716E625E0DB4C000212EE /* OnboardingUI with Auth */,
+				AC8716F825E0DB51000212EE /* OnboardingUI with AuthTests */,
+				AC87170325E0DB51000212EE /* OnboardingUI with AuthUITests */,
+				AC8716E525E0DB4C000212EE /* Products */,
+				CE11BCA525ABA6441F3121EB /* Pods */,
+				33F48C8B2D26D3F0DCC5D589 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC8716E525E0DB4C000212EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC8716E425E0DB4C000212EE /* OnboardingUI with Auth.app */,
+				AC8716F525E0DB51000212EE /* OnboardingUI with AuthTests.xctest */,
+				AC87170025E0DB51000212EE /* OnboardingUI with AuthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC8716E625E0DB4C000212EE /* OnboardingUI with Auth */ = {
+			isa = PBXGroup;
+			children = (
+				ACEFE8EC25E42C6900614EFA /* apple.json */,
+				AC8716E725E0DB4C000212EE /* OnboardingUI_with_AuthApp.swift */,
+				AC01240925EBBD8900D39F44 /* View */,
+				AC8716EB25E0DB50000212EE /* Assets.xcassets */,
+				AC8716F025E0DB50000212EE /* Info.plist */,
+				AC8716ED25E0DB50000212EE /* Preview Content */,
+			);
+			path = "OnboardingUI with Auth";
+			sourceTree = "<group>";
+		};
+		AC8716ED25E0DB50000212EE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC8716EE25E0DB50000212EE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC8716F825E0DB51000212EE /* OnboardingUI with AuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC8716F925E0DB51000212EE /* OnboardingUI_with_AuthTests.swift */,
+				AC8716FB25E0DB51000212EE /* Info.plist */,
+			);
+			path = "OnboardingUI with AuthTests";
+			sourceTree = "<group>";
+		};
+		AC87170325E0DB51000212EE /* OnboardingUI with AuthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC87170425E0DB51000212EE /* OnboardingUI_with_AuthUITests.swift */,
+				AC87170625E0DB51000212EE /* Info.plist */,
+			);
+			path = "OnboardingUI with AuthUITests";
+			sourceTree = "<group>";
+		};
+		CE11BCA525ABA6441F3121EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97A9370F81F1F54E6A994BF0 /* Pods-OnboardingUI with Auth.debug.xcconfig */,
+				EF2890442A60A6EAD65E068E /* Pods-OnboardingUI with Auth.release.xcconfig */,
+				950EB5E958D9B12D184CB889 /* Pods-OnboardingUI with Auth-OnboardingUI with AuthUITests.debug.xcconfig */,
+				A60892F0734DC6F938AE4A2C /* Pods-OnboardingUI with Auth-OnboardingUI with AuthUITests.release.xcconfig */,
+				859AF0CE7F678CDE657B101E /* Pods-OnboardingUI with AuthTests.debug.xcconfig */,
+				0A4BF0AE5DFF8997ACEE332C /* Pods-OnboardingUI with AuthTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC8716E325E0DB4C000212EE /* OnboardingUI with Auth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC87170925E0DB51000212EE /* Build configuration list for PBXNativeTarget "OnboardingUI with Auth" */;
+			buildPhases = (
+				8A7805A505B533AA4170911A /* [CP] Check Pods Manifest.lock */,
+				AC8716E025E0DB4C000212EE /* Sources */,
+				AC8716E125E0DB4C000212EE /* Frameworks */,
+				AC8716E225E0DB4C000212EE /* Resources */,
+				8F333E464F66B05A757D3A0C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OnboardingUI with Auth";
+			productName = "OnboardingUI with Auth";
+			productReference = AC8716E425E0DB4C000212EE /* OnboardingUI with Auth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC8716F425E0DB51000212EE /* OnboardingUI with AuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC87170C25E0DB51000212EE /* Build configuration list for PBXNativeTarget "OnboardingUI with AuthTests" */;
+			buildPhases = (
+				F4C9017A8C9FAD7FAD18BA2B /* [CP] Check Pods Manifest.lock */,
+				AC8716F125E0DB51000212EE /* Sources */,
+				AC8716F225E0DB51000212EE /* Frameworks */,
+				AC8716F325E0DB51000212EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC8716F725E0DB51000212EE /* PBXTargetDependency */,
+			);
+			name = "OnboardingUI with AuthTests";
+			productName = "OnboardingUI with AuthTests";
+			productReference = AC8716F525E0DB51000212EE /* OnboardingUI with AuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC8716FF25E0DB51000212EE /* OnboardingUI with AuthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC87170F25E0DB51000212EE /* Build configuration list for PBXNativeTarget "OnboardingUI with AuthUITests" */;
+			buildPhases = (
+				9402FDCF57AC5A5F679C4461 /* [CP] Check Pods Manifest.lock */,
+				AC8716FC25E0DB51000212EE /* Sources */,
+				AC8716FD25E0DB51000212EE /* Frameworks */,
+				AC8716FE25E0DB51000212EE /* Resources */,
+				82FC2232BB29552C4F12311B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC87170225E0DB51000212EE /* PBXTargetDependency */,
+			);
+			name = "OnboardingUI with AuthUITests";
+			productName = "OnboardingUI with AuthUITests";
+			productReference = AC87170025E0DB51000212EE /* OnboardingUI with AuthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC8716DC25E0DB4C000212EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AC8716E325E0DB4C000212EE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					AC8716F425E0DB51000212EE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AC8716E325E0DB4C000212EE;
+					};
+					AC8716FF25E0DB51000212EE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AC8716E325E0DB4C000212EE;
+					};
+				};
+			};
+			buildConfigurationList = AC8716DF25E0DB4C000212EE /* Build configuration list for PBXProject "OnboardingUI with Auth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC8716DB25E0DB4C000212EE;
+			productRefGroup = AC8716E525E0DB4C000212EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC8716E325E0DB4C000212EE /* OnboardingUI with Auth */,
+				AC8716F425E0DB51000212EE /* OnboardingUI with AuthTests */,
+				AC8716FF25E0DB51000212EE /* OnboardingUI with AuthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC8716E225E0DB4C000212EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8716EF25E0DB50000212EE /* Preview Assets.xcassets in Resources */,
+				ACEFE8ED25E42C6900614EFA /* apple.json in Resources */,
+				AC8716EC25E0DB50000212EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8716F325E0DB51000212EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8716FE25E0DB51000212EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82FC2232BB29552C4F12311B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnboardingUI with Auth-OnboardingUI with AuthUITests/Pods-OnboardingUI with Auth-OnboardingUI with AuthUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnboardingUI with Auth-OnboardingUI with AuthUITests/Pods-OnboardingUI with Auth-OnboardingUI with AuthUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OnboardingUI with Auth-OnboardingUI with AuthUITests/Pods-OnboardingUI with Auth-OnboardingUI with AuthUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A7805A505B533AA4170911A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnboardingUI with Auth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F333E464F66B05A757D3A0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnboardingUI with Auth/Pods-OnboardingUI with Auth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnboardingUI with Auth/Pods-OnboardingUI with Auth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OnboardingUI with Auth/Pods-OnboardingUI with Auth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9402FDCF57AC5A5F679C4461 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnboardingUI with Auth-OnboardingUI with AuthUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4C9017A8C9FAD7FAD18BA2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnboardingUI with AuthTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC8716E025E0DB4C000212EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC137B8E25EE04B200FB5D8C /* LoginUI.swift in Sources */,
+				AC8716EA25E0DB4C000212EE /* ContentView.swift in Sources */,
+				AC8716E825E0DB4C000212EE /* OnboardingUI_with_AuthApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8716F125E0DB51000212EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8716FA25E0DB51000212EE /* OnboardingUI_with_AuthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8716FC25E0DB51000212EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC87170525E0DB51000212EE /* OnboardingUI_with_AuthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC8716F725E0DB51000212EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC8716E325E0DB4C000212EE /* OnboardingUI with Auth */;
+			targetProxy = AC8716F625E0DB51000212EE /* PBXContainerItemProxy */;
+		};
+		AC87170225E0DB51000212EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC8716E325E0DB4C000212EE /* OnboardingUI with Auth */;
+			targetProxy = AC87170125E0DB51000212EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC87170725E0DB51000212EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC87170825E0DB51000212EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC87170A25E0DB51000212EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A9370F81F1F54E6A994BF0 /* Pods-OnboardingUI with Auth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OnboardingUI with Auth/Preview Content\"";
+				DEVELOPMENT_TEAM = S394BCCK8P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "OnboardingUI with Auth/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vraj.ProductName.OnboardingUI-with-Auth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC87170B25E0DB51000212EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF2890442A60A6EAD65E068E /* Pods-OnboardingUI with Auth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OnboardingUI with Auth/Preview Content\"";
+				DEVELOPMENT_TEAM = S394BCCK8P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "OnboardingUI with Auth/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vraj.ProductName.OnboardingUI-with-Auth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC87170D25E0DB51000212EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 859AF0CE7F678CDE657B101E /* Pods-OnboardingUI with AuthTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S394BCCK8P;
+				INFOPLIST_FILE = "OnboardingUI with AuthTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vraj.ProductName.OnboardingUI-with-AuthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnboardingUI with Auth.app/OnboardingUI with Auth";
+			};
+			name = Debug;
+		};
+		AC87170E25E0DB51000212EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A4BF0AE5DFF8997ACEE332C /* Pods-OnboardingUI with AuthTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S394BCCK8P;
+				INFOPLIST_FILE = "OnboardingUI with AuthTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vraj.ProductName.OnboardingUI-with-AuthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnboardingUI with Auth.app/OnboardingUI with Auth";
+			};
+			name = Release;
+		};
+		AC87171025E0DB51000212EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 950EB5E958D9B12D184CB889 /* Pods-OnboardingUI with Auth-OnboardingUI with AuthUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S394BCCK8P;
+				INFOPLIST_FILE = "OnboardingUI with AuthUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vraj.ProductName.OnboardingUI-with-AuthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OnboardingUI with Auth";
+			};
+			name = Debug;
+		};
+		AC87171125E0DB51000212EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A60892F0734DC6F938AE4A2C /* Pods-OnboardingUI with Auth-OnboardingUI with AuthUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S394BCCK8P;
+				INFOPLIST_FILE = "OnboardingUI with AuthUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vraj.ProductName.OnboardingUI-with-AuthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OnboardingUI with Auth";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC8716DF25E0DB4C000212EE /* Build configuration list for PBXProject "OnboardingUI with Auth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC87170725E0DB51000212EE /* Debug */,
+				AC87170825E0DB51000212EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC87170925E0DB51000212EE /* Build configuration list for PBXNativeTarget "OnboardingUI with Auth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC87170A25E0DB51000212EE /* Debug */,
+				AC87170B25E0DB51000212EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC87170C25E0DB51000212EE /* Build configuration list for PBXNativeTarget "OnboardingUI with AuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC87170D25E0DB51000212EE /* Debug */,
+				AC87170E25E0DB51000212EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC87170F25E0DB51000212EE /* Build configuration list for PBXNativeTarget "OnboardingUI with AuthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC87171025E0DB51000212EE /* Debug */,
+				AC87171125E0DB51000212EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC8716DC25E0DB4C000212EE /* Project object */;
+}
